@@ -22,6 +22,7 @@ function Sidebar1() {
             </SubMenu>
             <SubMenu
                 title = "Team"
+                label = "Team"
             >
                 <MenuItem>Tytionex</MenuItem>
                 <MenuItem>Contact</MenuItem>
