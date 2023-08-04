@@ -78,6 +78,18 @@ function Sidebar1() {
           Calendar
         </MenuItem>
 
+        <MenuItem
+          icon = {<HomeIcon/>}
+        >
+          Github
+        </MenuItem>
+
+        <MenuItem
+          icon = {<HomeIcon/>}
+        >
+          Google Drive
+        </MenuItem>
+
         {/*MISC SUBTITLE*/}
         <div style={{ padding: '0 24px', marginBottom: '8px', marginTop: '32px' }}></div>
         <Typography
