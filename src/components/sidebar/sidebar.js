@@ -17,8 +17,8 @@ import './sidebar.css'
 
 function Sidebar1() {
   return (
-    <div>
-      <Sidebar>
+    <div className='my_sidebar'>
+      <Sidebar >
       <img src={logo} className='icon-fit'/>
       <Typography
         variant="body2"
