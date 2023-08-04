@@ -1,0 +1,20 @@
+.sidebar-item {
+    
+    align-items: left;
+    text-align: left;
+}
+
+
+.icon-fit {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.small-title {
+    text-align: left;
+    color: grey;
+    margin-left: 10px;
+    padding-left: 15px;
+}
