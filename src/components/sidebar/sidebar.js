@@ -44,8 +44,7 @@ function Sidebar1() {
           icon = {<HomeIcon/>}
           className='sidebar-item'
         >
-          
-          Home
+          <Link to = "/">Home</Link>
         </MenuItem>
 
         {/*ONBOARDING*/}
