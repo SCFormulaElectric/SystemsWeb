@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../Shared.css'
+
 function HomePage() {
   return (
     <div className="homepage">
