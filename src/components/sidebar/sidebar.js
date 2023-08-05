@@ -2,11 +2,13 @@ import React from 'react';
 import { Sidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import { Typography } from './Typography.tsx';
 
+
 //icons
 import HomeIcon from '../../icons/home.js'
 import logo from '../../icons/logo.webp'
 
 import './sidebar.css'
+import { Link } from 'react-router-dom';
 
 //import icons from icons folder 
 //https://github.com/azouaoui-med/react-pro-sidebar/blob/master/storybook/Playground.tsx
@@ -18,7 +20,14 @@ import './sidebar.css'
 function Sidebar1() {
   return (
     <div className='my_sidebar'>
-      <Sidebar >
+      <Sidebar 
+        rootStyles={{
+           
+            backgroundColor: '#00000',
+            height: '100vh'
+          
+        }}
+      >
       <img src={logo} className='icon-fit'/>
       <Typography
         variant="body2"
@@ -30,12 +39,14 @@ function Sidebar1() {
       <Menu iconShape="square">
 
         {/*HOME*/}
-        <SubMenu
+        <MenuItem
           label = "Home"
           icon = {<HomeIcon/>}
           className='sidebar-item'
         >
-        </SubMenu>
+          
+          Home
+        </MenuItem>
 
         {/*ONBOARDING*/}
         <SubMenu 

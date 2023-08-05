@@ -7,7 +7,7 @@
 
 .icon-fit {
     width: 90%;
-    height: 90%;
+    height: 75px;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -22,5 +22,11 @@
 .my_sidebar {
     margin-top: -20px;
     position: fixed;
-    background-color: rgb(36, 32, 87);
+   height: 1000px;
+   
+    
+}
+
+.MySideBar {
+    background-color: aqua;
 }
