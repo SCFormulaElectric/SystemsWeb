@@ -1,10 +1,10 @@
 import React from 'react';
 
-function OnboardingPage() {
+function TeamPage() {
   return (
-    <div className="OnboardingPage">
+    <div className="TeamPage">
       <header>
-        <h1>This is the onboarding page</h1>
+        <h1>This is the Team page</h1>
       </header>
       <main>
         <p>This is such a great website</p>
@@ -17,4 +17,4 @@ function OnboardingPage() {
   );
 }
 
-export default OnboardingPage;
+export default TeamPage;

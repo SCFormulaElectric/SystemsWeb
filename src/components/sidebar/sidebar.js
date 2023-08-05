@@ -54,7 +54,9 @@ function Sidebar1() {
           icon = {<HomeIcon/>}
           label = "Onboarding"
         >
-          <MenuItem>To Do</MenuItem>
+          <MenuItem>
+            <Link to = "/onboarding">Get Started</Link>
+          </MenuItem>
           <MenuItem>Github</MenuItem>
           <MenuItem>Google Drive</MenuItem>
           <MenuItem>Github</MenuItem>
@@ -67,7 +69,9 @@ function Sidebar1() {
           className='sidebar-item'
           icon = {<HomeIcon/>}
         >
-          <MenuItem>Tytionex</MenuItem>
+          <MenuItem>
+            <Link to = "/team">About</Link>
+          </MenuItem>
           <MenuItem>Contact</MenuItem>
         </SubMenu>
 
