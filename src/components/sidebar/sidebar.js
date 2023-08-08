@@ -44,7 +44,7 @@ function Sidebar1() {
           icon = {<HomeIcon/>}
           className='sidebar-item'
         >
-          <Link to = "/">Home</Link>
+          <Link to = "/" className='link-text'>Home</Link>
         </MenuItem>
 
         {/*ONBOARDING*/}
@@ -55,9 +55,11 @@ function Sidebar1() {
           label = "Onboarding"
         >
           <MenuItem>
-            <Link to = "/onboarding">Get Started</Link>
+            <Link to = "/onboarding" className='link-text'>Get Started</Link>
           </MenuItem>
-          <MenuItem>Github</MenuItem>
+          <MenuItem>
+            <Link to = "/" className='link-text'>Home</Link>
+          </MenuItem>
           <MenuItem>Google Drive</MenuItem>
           <MenuItem>Github</MenuItem>
         </SubMenu>
@@ -70,7 +72,7 @@ function Sidebar1() {
           icon = {<HomeIcon/>}
         >
           <MenuItem>
-            <Link to = "/team">About</Link>
+            <Link to = "/team" className='link-text'>About</Link>
           </MenuItem>
           <MenuItem>Contact</MenuItem>
         </SubMenu>
@@ -87,21 +89,24 @@ function Sidebar1() {
 
         {/*CALENDAR*/}
         <MenuItem
+          className='sidebar-item'
           icon = {<HomeIcon/>}
         >
-          Calendar
+          <Link to = "/calendar" className='link-text'>Calendar</Link>
         </MenuItem>
 
         <MenuItem
+          className='sidebar-item'
           icon = {<HomeIcon/>}
         >
-          Github
+          <Link to = "/github" className='link-text'>Github</Link>
         </MenuItem>
 
         <MenuItem
+          className='sidebar-item'
           icon = {<HomeIcon/>}
         >
-          Google Drive
+          <Link to = "/google_drive" className='link-text'>Google Drive</Link>
         </MenuItem>
 
         {/*MISC SUBTITLE*/}
@@ -113,10 +118,18 @@ function Sidebar1() {
         >
           Misc
         </Typography>
+
         <MenuItem
           icon = {<HomeIcon/>}
+          className='sidebar-item'
         >
-          Random
+          <Link to = "/idk" className='link-text'>Idk</Link>
+        </MenuItem>
+        <MenuItem
+          icon = {<HomeIcon/>}
+          className='sidebar-item'
+        >
+          <Link to = "/admin" className='link-text'>Admin Login</Link>
         </MenuItem>
       </Menu>
     </Sidebar>

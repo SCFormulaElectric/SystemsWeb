@@ -4,11 +4,14 @@
     text-align: left;
 }
 
-
+.link-text {
+    text-decoration: none;
+    color: black;
+}
 .icon-fit {
     width: 90%;
     height: 75px;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-bottom: 5%;
     
 }
